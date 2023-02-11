@@ -2,3 +2,13 @@ pynecone.db
 .web
 
 __pycache__
+
+# Terraform directories and files
+.terraform/
+*.terraform.lock.hcl
+*.tfvars
+tfplan*
+*.tfstate
+*.tfstate.*
+*.tfvars
+.iac-env

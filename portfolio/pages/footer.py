@@ -72,7 +72,7 @@ def footer(style=footer_style):
             ),
             pc.hstack(
                 pc.text(
-                    "Copyright © 2023 Pynecone",
+                    "Copyright © 2023 JeremyLG",
                     font_weight="500",
                 ),
                 pc.link(
