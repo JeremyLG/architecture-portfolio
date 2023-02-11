@@ -65,10 +65,6 @@ resource "google_compute_instance" "portfolio_instance" {
   network_interface {
     network    = google_compute_network.portfolio.id
     subnetwork = google_compute_subnetwork.portfolio.id
-    access_config {
-      network_tier = "PREMIUM"
-
-    }
   }
   tags = ["portfolio"]
 }
